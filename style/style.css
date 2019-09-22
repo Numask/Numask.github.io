@@ -259,6 +259,9 @@ h6 {
 /* End Menu Sekunder */
 
 /* Star Copyright */
+.copyright {
+    text-align: center;
+}
 .copyright p {
     font-size: 15px;
 }
@@ -266,7 +269,7 @@ h6 {
 
 /* Star Gambar */
 .gambar {
-    margin: 40px;
+    margin: 50px;
 }
 /* End Gambar */
 
