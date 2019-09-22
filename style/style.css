@@ -1,0 +1,284 @@
+/* Star Font */
+@import url('https://fonts.googleapis.com/css?family=Chewy&display=swap');
+/* End Font */
+
+/* Star Body */
+body {
+    background-color: #fdeaf3;
+    color: hotpink;
+    font-family: Chewy, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1,5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Star Debug */
+.bg-crismon {
+    background-color: crimson;
+}
+
+.bg-aquamarine {
+    background-color: aquamarine;
+}
+.bg-pink {
+    background-color: pink;
+}
+.bg-lightblue {
+    background-color: lightblue;
+}
+.bg-peachpuff {
+    background-color: peachpuff;
+}
+.bg-mediumaquamarine {
+    background-color: mediumaquamarine;
+}
+.bg-paleturquoise {
+    background-color: paleturquoise;
+}
+.bg-palegreen {
+    background-color: palegreen;
+}
+.bg-chocolate {
+    background-color: chocolate;
+}
+.bg-dimgrey {
+    background-color: dimgrey;
+}
+.bg-brown {
+    background-color: brown;
+}
+.bg-skyblue {
+    background-color: skyblue;
+}
+.bg-lightpink {
+    background-color: lightpink;
+}
+.bg-red {
+    background-color: 
+}
+/* End Debug */
+
+/* Star Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container.bg-crismon h1{
+    text-align:  center;
+}
+.container.full h1 {
+    text-align: center;
+}
+.container.full h2 {
+    text-align: center;
+}
+.container.full h3 {
+    text-align: center;
+}
+.container.full h4 {
+    text-align: center;
+}
+/* End Container */
+
+/* Star Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+
+/* Star Menu Primer */
+.menu-primer ul {
+    background-color: lightpink;
+    border-radius: 14px;
+    box-shadow:
+        0 3px 5px -1px rgba(0, 0, 0, .2),
+        0 6px 10px 0 rgba(0, 0, 0, .14),
+        0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: darkslategrey;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 30px 40px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: lightblue;
+    color: coral;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: paleturquoise;
+    color: darkslategrey;
+    text-decoration-color: pink;
+}
+/* End Menu Primer */
+
+/* Star Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: crimson;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: deepskyblue;
+    text-decoration: underline
+}
+/* End Anchor / Hyperlink */
+
+/* Star Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Star-Jumbroton */
+.jumbroton {
+    background-color: bisque;
+    border: 1px solid mediumturquoise;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+/* End-Jumbroton */
+
+/* Star Main Home */
+.main-home-one {
+    float: left;
+    width: 49%;
+}
+.main-home-two {
+    float: right;
+    width: 49%;
+}
+/* End Main Home */
+
+/* Star Box */
+.box-heading {
+    background-color: #ffb9be;
+    border: 3px solid hotpink;
+    border-radius: 3px 3px 0 0px ;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h3 {
+    font-size: 15px;
+    margin: 0;
+}
+.box-isi {
+    background-color: lightblue;
+    border: 3px solid hotpink;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px ;
+}
+/* End Box */
+
+/* Star Testimonial */
+.testimonial {
+    border-left: 4px solid #edb7bb;
+    margin-left: 30px;
+    padding-left: 20px;
+
+}
+/* End Testimonial */
+
+/* Star Menu Sekunder */
+.menu-sekunder {
+    background-color: lightblue;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Star Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Star Gambar */
+.gambar {
+    margin: 80px;
+}
+/* End Gambar */
+
+/* Star text */
+.text {
+    margin: 80px;
+}
+/* Ens text */
+
+/* Star style */
+.style {
+    float: left;
+}
+
+/* End style */
