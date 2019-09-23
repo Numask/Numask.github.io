@@ -91,6 +91,9 @@ body {
 
 
 /* Star Menu Primer */
+.menu-primer {
+    overflow: hidden;
+}
 .menu-primer ul {
     background-color: lightpink;
     border-radius: 14px;
@@ -249,8 +252,7 @@ h6 {
 .menu-sekunder-one {
     width: 40%;
 }
-.menu-sekunder-two,
-.menu-sekunder-three {
+.menu-sekunder-two {
     width: 30%;
 }
 .menu-sekunder li img {
